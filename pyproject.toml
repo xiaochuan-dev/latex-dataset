@@ -1,0 +1,17 @@
+[project]
+name = "latex-dataset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "freexiaochuan", email = "w2239559319@myyahoo.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "doclayout-yolo>=0.0.4",
+    "huggingface-hub>=2.4.0",
+    "labelme>=7.11.0",
+    "pillow>=13.0.0",
+    "pymupdf>=2.1",
+    "ultralytics>=8.4.215",
+]
